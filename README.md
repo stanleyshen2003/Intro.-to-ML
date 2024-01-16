@@ -10,6 +10,7 @@ NYCU 112 spring, lectured by 林彥宇
 - [Kaggle competition](https://www.kaggle.com/competitions/nycu2023mlfinalproject)
 - rank: 1/111
 - HERBS + ensemble(voting with confidence value)
+- details in [report](https://github.com/stanleyshen2003/Intro.-to-ML/blob/main/ML_final_project/110705013_report.pdf)
 
 ![image](https://github.com/stanleyshen2003/Intro.-to-ML/assets/80504001/20f84815-f0b8-4319-9337-dbc3ec16932f)
 
