@@ -14,7 +14,6 @@ import timm
 import matplotlib
 import matplotlib.pyplot as plt
 import seaborn as sns
-import tqdm
 import csv
 from utils.config_utils import load_yaml
 from vis_utils import ImgLoader
@@ -129,7 +128,7 @@ if __name__ == "__main__":
                 tempdict = {}
                 tempdict['id'] = file_names[bi][:-4]
                 tempdict['label'] = cls_folders[preds[bi, 0]]
-                #tempdict['win2'] = (values[bi, 0] - values[bi, 1]).item()
+                tempdict['win2'] = (values[bi, 0] - values[bi, 1]).item()
                 results.append(tempdict)
                 #print(file_names[bi]+' '+prediction)
             total = fi
